@@ -14,7 +14,7 @@ typedef struct{
 }Stack;
 
 Stack *stackCreate();
-StackElement *stackElementCreate(int data);
+StackElement *stackElementCreate(int data, StackElement *next);
 void stackAdd(Stack *stack, StackElement *elem);
 StackElement *stackRemove(Stack *stack);
 

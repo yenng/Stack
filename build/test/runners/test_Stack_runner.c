@@ -35,6 +35,11 @@ extern void test_the_value_of_StackElement(void);
 extern void test_stackAdd_function(void);
 extern void test_add_two_element(void);
 extern void test_add_three_element(void);
+extern void test_removeStack_if_stackElement_is_NULL(void);
+extern void test_removeStack_if_stackElement_is_NOT_NULL(void);
+extern void test_add_three_element_and_remove_one_element(void);
+extern void test_add_three_element_and_remove_two_element(void);
+extern void test_add_two_element_and_remove_two_element(void);
 
 
 //=======Test Reset Option=====
@@ -50,11 +55,16 @@ void resetTest(void)
 int main(void)
 {
   UnityBegin("test_Stack.c");
-  RUN_TEST(test_make_sure_the_initial_stack_is_NULL, 13);
-  RUN_TEST(test_the_value_of_StackElement, 19);
-  RUN_TEST(test_stackAdd_function, 27);
-  RUN_TEST(test_add_two_element, 38);
-  RUN_TEST(test_add_three_element, 53);
+  RUN_TEST(test_make_sure_the_initial_stack_is_NULL, 24);
+  RUN_TEST(test_the_value_of_StackElement, 40);
+  RUN_TEST(test_stackAdd_function, 57);
+  RUN_TEST(test_add_two_element, 79);
+  RUN_TEST(test_add_three_element, 103);
+  RUN_TEST(test_removeStack_if_stackElement_is_NULL, 130);
+  RUN_TEST(test_removeStack_if_stackElement_is_NOT_NULL, 151);
+  RUN_TEST(test_add_three_element_and_remove_one_element, 173);
+  RUN_TEST(test_add_three_element_and_remove_two_element, 201);
+  RUN_TEST(test_add_two_element_and_remove_two_element, 230);
 
   return (UnityEnd());
 }

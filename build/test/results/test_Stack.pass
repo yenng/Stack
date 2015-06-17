@@ -4,29 +4,41 @@
   :file: test_Stack.c
 :successes:
 - :test: test_make_sure_the_initial_stack_is_NULL
-  :line: 13
+  :line: 24
   :message: ''
 - :test: test_the_value_of_StackElement
-  :line: 19
+  :line: 40
   :message: ''
 - :test: test_stackAdd_function
-  :line: 27
+  :line: 57
   :message: ''
 - :test: test_add_two_element
-  :line: 38
+  :line: 79
   :message: ''
 - :test: test_add_three_element
-  :line: 53
+  :line: 103
+  :message: ''
+- :test: test_removeStack_if_stackElement_is_NULL
+  :line: 130
+  :message: ''
+- :test: test_removeStack_if_stackElement_is_NOT_NULL
+  :line: 151
+  :message: ''
+- :test: test_add_three_element_and_remove_one_element
+  :line: 173
+  :message: ''
+- :test: test_add_three_element_and_remove_two_element
+  :line: 201
+  :message: ''
+- :test: test_add_two_element_and_remove_two_element
+  :line: 230
   :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 5
-  :passed: 5
+  :total: 10
+  :passed: 10
   :failed: 0
   :ignored: 0
 :stdout:
-- '70'
-- '2'
-- '3'
 - ''
