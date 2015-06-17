@@ -1,0 +1,32 @@
+---
+:source:
+  :path: test
+  :file: test_Stack.c
+:successes:
+- :test: test_make_sure_the_initial_stack_is_NULL
+  :line: 13
+  :message: ''
+- :test: test_the_value_of_StackElement
+  :line: 19
+  :message: ''
+- :test: test_stackAdd_function
+  :line: 27
+  :message: ''
+- :test: test_add_two_element
+  :line: 38
+  :message: ''
+- :test: test_add_three_element
+  :line: 53
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- '70'
+- '2'
+- '3'
+- ''
